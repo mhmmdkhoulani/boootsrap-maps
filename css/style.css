@@ -46,3 +46,19 @@
 .stats .content h4 {
   margin-bottom: 0px;
 }
+
+footer .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: gray;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+}
+footer .icon:hover {
+  background-color: transparent;
+  border: 1px solid gray;
+  cursor: pointer;
+}
